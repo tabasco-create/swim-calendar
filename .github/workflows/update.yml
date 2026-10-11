@@ -2,7 +2,7 @@ name: Update filtered swim calendar
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours
+    - cron: "17 13 * * *"     # daily, ~6am Pacific
   workflow_dispatch:
 
 permissions:
