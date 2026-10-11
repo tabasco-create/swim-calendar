@@ -1,0 +1,198 @@
+{
+ "checked_at": "2026-10-11T21:05:53Z",
+ "updated_at": "2026-10-11T21:05:53Z",
+ "tracking_since": "2026-10-11T21:05:53Z",
+ "events": [
+  {
+   "uid": "895759@swimtopia.com",
+   "title": "*YMCA* Jackie Robinson (All Levels)",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "time": "9:00 AM",
+   "location": "151 YMCA Way, San Diego, CA 92102",
+   "description": "All Levels"
+  },
+  {
+   "uid": "895760@swimtopia.com",
+   "title": "*YMCA* Ryan (All Levels)",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "time": "9:00 AM",
+   "location": "4390 Valeta St, San Diego, CA 92107",
+   "description": "Home Meet, all levels invited."
+  },
+  {
+   "uid": "895761@swimtopia.com",
+   "title": "*YMCA* McGrath Marlin Invitational (All Levels)",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "time": "9:00 AM",
+   "location": "12006 Campo Rd, Spring Valley, CA 91978",
+   "description": "All Levels swim meet."
+  },
+  {
+   "uid": "906871@swimtopia.com",
+   "title": "2026 SI Winter Age Group Championships",
+   "start": "2026-12-19",
+   "end": "2026-12-21",
+   "time": "9:30 AM",
+   "location": "Wagner Aquatic Center",
+   "description": ""
+  },
+  {
+   "uid": "895762@swimtopia.com",
+   "title": "*YMCA* McKinney (Development Meet)",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "time": "9:00 AM",
+   "location": "8355 Cliffridge Ave, La Jolla, CA 92037",
+   "description": "Development meet"
+  },
+  {
+   "uid": "895763@swimtopia.com",
+   "title": "*YMCA* Cameron (Bronze Minimum)",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "time": "9:00 AM",
+   "location": "10123 Riverwalk Dr, Santee, CA 92071",
+   "description": "Bronze Minimum"
+  },
+  {
+   "uid": "895764@swimtopia.com",
+   "title": "*YMCA* McGrath (Bronze Minimum)",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "time": "9:00 AM",
+   "location": "12006 Campo Rd, Spring Valley, CA 91978",
+   "description": "Bronze Minimum."
+  },
+  {
+   "uid": "903435@swimtopia.com",
+   "title": "Making Waves",
+   "start": "2027-02-28",
+   "end": "2027-02-28",
+   "time": "9:00 AM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "895766@swimtopia.com",
+   "title": "*YMCA* McKinney (All Levels)",
+   "start": "2027-03-13",
+   "end": "2027-03-13",
+   "time": "9:00 AM",
+   "location": "8355 Cliffridge Ave, La Jolla, CA 92037",
+   "description": "All Levels, La Jolla YMCA"
+  },
+  {
+   "uid": "895767@swimtopia.com",
+   "title": "*YMCA* Copley-Price (Development Meet)",
+   "start": "2027-04-10",
+   "end": "2027-04-10",
+   "time": "9:00 AM",
+   "location": "4300 El Cajon Blvd, San Diego, CA 92105",
+   "description": ""
+  },
+  {
+   "uid": "895768@swimtopia.com",
+   "title": "*YMCA* Ryan (Bronze Minimum)",
+   "start": "2027-04-18",
+   "end": "2027-04-18",
+   "time": null,
+   "location": "4390 Valeta St, San Diego, CA 92107",
+   "description": "Home meet, Bronze Minimum."
+  },
+  {
+   "uid": "895769@swimtopia.com",
+   "title": "*YMCA* Cameron Y Champs",
+   "start": "2027-05-08",
+   "end": "2027-05-09",
+   "time": "9:00 AM",
+   "location": "10123 Riverwalk Dr, Santee, CA 92071",
+   "description": ""
+  }
+ ],
+ "filtered_out": [
+  {
+   "uid": "905040@swimtopia.com",
+   "title": "*USA* 2026 SBA All Ages NTS Meet",
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "time": "9:00 AM",
+   "location": "Mater Dei High School",
+   "description": ""
+  },
+  {
+   "uid": "892841@swimtopia.com",
+   "title": "*USA* All Ages NTS",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "time": "7:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892842@swimtopia.com",
+   "title": "*USA* WAG Max Meet",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "time": "7:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892843@swimtopia.com",
+   "title": "*USA* WAGs",
+   "start": "2026-12-19",
+   "end": "2026-12-21",
+   "time": "7:00 PM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892844@swimtopia.com",
+   "title": "*USA* All Ages NTS",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "time": "8:00 AM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892845@swimtopia.com",
+   "title": "*USA* Senior Classic",
+   "start": "2027-02-12",
+   "end": "2027-02-15",
+   "time": "8:00 AM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892846@swimtopia.com",
+   "title": "*USA* AG Champ Max",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "time": "9:00 AM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892847@swimtopia.com",
+   "title": "*USA* AG Champ",
+   "start": "2027-03-05",
+   "end": "2027-03-07",
+   "time": "9:00 AM",
+   "location": "",
+   "description": ""
+  },
+  {
+   "uid": "892848@swimtopia.com",
+   "title": "*USA* All Ages NTS",
+   "start": "2027-03-20",
+   "end": "2027-03-21",
+   "time": "9:00 AM",
+   "location": "",
+   "description": ""
+  }
+ ]
+}
