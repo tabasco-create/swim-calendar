@@ -1,6 +1,41 @@
 {
  "history": [
   {
+   "at": "2026-10-20T13:49:18Z",
+   "added": [],
+   "removed": [
+    {
+     "uid": "895759@swimtopia.com",
+     "title": "*YMCA* Jackie Robinson (All Levels)",
+     "start": "2026-10-25",
+     "end": "2026-10-25",
+     "time": "9:00 AM",
+     "location": "151 YMCA Way, San Diego, CA 92102",
+     "description": "All Levels"
+    }
+   ],
+   "changed": [
+    {
+     "event": {
+      "uid": "908203@swimtopia.com",
+      "title": "*YMCA* Jackie Robinson All Levels",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "time": "10:00 AM",
+      "location": "",
+      "description": ""
+     },
+     "changes": [
+      {
+       "field": "title",
+       "from": "Jackie Robinson All Levels",
+       "to": "*YMCA* Jackie Robinson All Levels"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "at": "2026-10-16T13:47:21Z",
    "added": [
     {
