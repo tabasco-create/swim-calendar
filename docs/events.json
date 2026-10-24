@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-23T13:48:26Z",
+ "checked_at": "2026-10-24T13:38:08Z",
  "updated_at": "2026-10-20T13:49:18Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
@@ -114,12 +114,12 @@
  ],
  "filtered_out": [
   {
-   "uid": "892841@swimtopia.com",
-   "title": "*USA* All Ages NTS",
+   "uid": "909286@swimtopia.com",
+   "title": "*USA* 2026 SI SOL NTS All Ages Nov",
    "start": "2026-11-07",
    "end": "2026-11-08",
-   "time": "7:00 PM",
-   "location": "",
+   "time": "9:00 AM",
+   "location": "Southwestern College",
    "description": ""
   },
   {
