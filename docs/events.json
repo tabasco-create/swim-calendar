@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-03T14:21:33Z",
- "updated_at": "2026-10-26T15:11:48Z",
+ "checked_at": "2026-11-04T14:24:06Z",
+ "updated_at": "2026-11-04T14:24:06Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
   {
@@ -8,9 +8,18 @@
    "title": "*YMCA* Ryan (All Levels)",
    "start": "2026-11-15",
    "end": "2026-11-15",
-   "time": "9:00 AM",
+   "time": "12:00 PM",
    "location": "4390 Valeta St, San Diego, CA 92107",
    "description": "Home Meet, all levels invited."
+  },
+  {
+   "uid": "912203@swimtopia.com",
+   "title": "2026 Winter Party",
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "time": "5:00 PM",
+   "location": "Ryan YMCA back patio",
+   "description": "Please sign up to help setup/clean up, bring party food, and/or bring gingerbread building items."
   },
   {
    "uid": "895761@swimtopia.com",
