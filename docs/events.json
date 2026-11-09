@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-08T18:20:45Z",
+ "checked_at": "2026-11-09T22:58:29Z",
  "updated_at": "2026-11-04T14:24:06Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
@@ -113,15 +113,6 @@
   }
  ],
  "filtered_out": [
-  {
-   "uid": "909286@swimtopia.com",
-   "title": "*USA* 2026 SI SOL NTS All Ages Nov",
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "time": "9:00 AM",
-   "location": "Southwestern College",
-   "description": ""
-  },
   {
    "uid": "892842@swimtopia.com",
    "title": "*USA* WAG Max Meet",
