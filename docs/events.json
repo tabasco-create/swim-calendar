@@ -1,16 +1,16 @@
 {
- "checked_at": "2026-11-15T19:22:01Z",
- "updated_at": "2026-11-04T14:24:06Z",
+ "checked_at": "2026-11-16T21:14:19Z",
+ "updated_at": "2026-11-16T21:14:19Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
   {
-   "uid": "895760@swimtopia.com",
-   "title": "*YMCA* Ryan (All Levels)",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "time": "12:00 PM",
-   "location": "4390 Valeta St, San Diego, CA 92107",
-   "description": "Home Meet, all levels invited."
+   "uid": "913910@swimtopia.com",
+   "title": "NO PRACTICE - Thanksgiving Break",
+   "start": "2026-11-23",
+   "end": "2026-11-27",
+   "time": null,
+   "location": "",
+   "description": ""
   },
   {
    "uid": "912203@swimtopia.com",
