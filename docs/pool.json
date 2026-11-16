@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "checked_at": "2026-11-16T04:32:02Z",
+ "updated_at": "2026-11-16T04:32:02Z",
+ "page_url": "https://www.ymcasd.org/locations/t-claude-and-gladys-b-ryan-family-ymca/",
+ "hours": [
+  {
+   "days": "Sunday",
+   "hours": "8:00am–2:45pm"
+  },
+  {
+   "days": "Monday-Friday",
+   "hours": "5:30am–7:45pm"
+  },
+  {
+   "days": "Saturday",
+   "hours": "7:00am–4:45pm"
+  }
+ ],
+ "schedule_pdf": "https://www.ymcasd.org/wp-content/uploads/2026/11/Ryan-Pool-Schedule-November-2026.pdf",
+ "schedule_month": "November 2026",
+ "alerts": [
+  {
+   "label": "Pool Closure: Dec 14–18",
+   "text": "Due to annual cleaning and maintenance, the pool and aquatics facility at Ryan Family YMCA will be closed from Monday, December 14 through Friday December 18, 2026.\nWe apologize for the inconvenience and appreciate your patience!",
+   "closed_from": "2026-12-14",
+   "closed_to": "2026-12-18",
+   "pool": true
+  }
+ ],
+ "pdf": {
+  "effective": "2026-11-09",
+  "notes": [
+   "Family swim is available at all times, space is subject to availability based on programming.",
+   "Recommended times: MON-THURS 5:30-4:00PM, after 6:00PM, FRI after 5:00PM, SAT & SUN all day.",
+   "Our Annual Pool closure for Maintenance is scheduled beginning on 12/14 with an anticipated reopening of 12/18.",
+   "Beginning 12/14, our Therapy pool will be getting replastered & other upgrades which will cause it to be closed until approximately late January."
+  ]
+ },
+ "closures": [
+  {
+   "title": "Pool Closure: Dec 14–18",
+   "from": "2026-12-14",
+   "to": "2026-12-18",
+   "pool": true,
+   "text": "Due to annual cleaning and maintenance, the pool and aquatics facility at Ryan Family YMCA will be closed from Monday, December 14 through Friday December 18, 2026.\nWe apologize for the inconvenience and appreciate your patience!"
+  }
+ ]
+}

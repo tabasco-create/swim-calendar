@@ -2,7 +2,7 @@ name: Update filtered swim calendar
 
 on:
   schedule:
-    - cron: "17 13 * * *"     # daily, ~6am Pacific
+    - cron: "41 11 * * *"     # daily, ~3:40am Pacific (before sd-events reads pool.json)
   workflow_dispatch:
 
 permissions:
@@ -18,6 +18,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: python filter_calendar.py
+      - name: Ryan YMCA pool info (hours, schedule PDF, closures)
+        continue-on-error: true    # a problem here shouldn't hold up the swim calendar
+        run: |
+          pip install --quiet pypdf || echo "pypdf not installed; PDF notes will be skipped"
+          python ryan_pool.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions"

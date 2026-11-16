@@ -29,6 +29,10 @@
   .ev .when{color:var(--muted);font-variant-numeric:tabular-nums}
   @media (max-width:520px){.ev{grid-template-columns:1fr}}
   details summary{cursor:pointer;margin:.6rem 0}
+  .alert{border:1px solid var(--rem);color:var(--rem);border-radius:10px;padding:.7rem 1rem;margin:.8rem 0}
+  .closure{border-left:4px solid var(--chg);background:var(--card);border-radius:6px;padding:.6rem .9rem;margin:.6rem 0}
+  .closure strong{display:block}
+  .hours{display:grid;grid-template-columns:auto 1fr;gap:.1rem 1rem;margin:.4rem 0}
 </style>
 </head>
 <body>
@@ -47,6 +51,10 @@
 <div class="status" id="status" aria-live="polite">
   <div><span>Loading status&hellip;</span></div>
 </div>
+
+<h2 id="pool">Ryan YMCA pool</h2>
+<div id="poolbox"><p class="muted">Loading pool info&hellip;</p>
+  <p><a href="https://www.ymcasd.org/locations/t-claude-and-gladys-b-ryan-family-ymca/">Ryan YMCA page</a></p></div>
 
 <h2>What changed</h2>
 <div id="changes"><p class="muted">Loading&hellip;</p></div>
@@ -185,6 +193,61 @@ This is an unofficial, parent-run copy of the team calendar on
       row.appendChild(right); box.appendChild(row);
     });
   }
+
+  function longRange(a, b) {
+    var x = parts(a);
+    if (!b || a === b) return shortDate(a);
+    return DAYS[dateObj(a).getDay()] + ", " + MONTHS[x.m] + " " + x.d + " – " + shortDate(b);
+  }
+  function link(text, url) {
+    var a = el("a", text);
+    if (/^https:\/\//.test(url || "")) a.href = url;
+    return a;
+  }
+  function renderPool(p) {
+    var box = document.getElementById("poolbox"); box.textContent = "";
+    var page = p.page_url || "https://www.ymcasd.org/locations/t-claude-and-gladys-b-ryan-family-ymca/";
+    if (!p.ok) {
+      box.appendChild(el("div", (p.error || "Couldn't read the Ryan YMCA page.") + " Last checked " + stamp(p.checked_at) +
+        (p.updated_at ? ". Showing what was there on " + stamp(p.updated_at) + "." : "."), "alert"));
+    }
+    if (p.warning) box.appendChild(el("div", p.warning, "alert"));
+    var today = new Date().toLocaleDateString("en-CA", {timeZone: TZ});
+    (p.closures || []).filter(function (c) { return c.to >= today; }).forEach(function (c) {
+      var d = el("div", null, "closure");
+      d.appendChild(el("strong", (c.pool ? "Pool closed: " : "Closed: ") + longRange(c.from, c.to)));
+      if (c.text) d.appendChild(el("div", c.text.split("\n")[0], "muted"));
+      box.appendChild(d);
+    });
+    var links = el("p");
+    if (p.schedule_pdf) {
+      var a = link("Pool schedule" + (p.schedule_month ? " (" + p.schedule_month + ")" : "") + ", PDF", p.schedule_pdf);
+      a.className = "btn"; links.appendChild(a);
+    }
+    var pg = link("Ryan YMCA page", page); pg.className = "btn"; links.appendChild(pg);
+    box.appendChild(links);
+    if (p.pdf && p.pdf.effective) box.appendChild(el("p", "Schedule effective " + shortDate(p.pdf.effective) + ". Lap swim lanes and family swim times are on the PDF.", "muted"));
+    if (p.hours && p.hours.length) {
+      var h = el("div", null, "hours");
+      p.hours.forEach(function (r) { h.appendChild(el("span", r.days, "muted")); h.appendChild(el("span", r.hours)); });
+      box.appendChild(el("div", "Pool hours", "month")); box.appendChild(h);
+    }
+    var notes = (p.pdf && p.pdf.notes) || [];
+    var others = (p.alerts || []).filter(function (a) { return !a.closed_to; });
+    if (notes.length || others.length) {
+      var ul = el("ul");
+      others.forEach(function (a) { ul.appendChild(el("li", (a.label ? a.label + ": " : "") + a.text)); });
+      notes.forEach(function (n) { ul.appendChild(el("li", n)); });
+      box.appendChild(el("div", "Notes from the YMCA", "month")); box.appendChild(ul);
+    }
+    box.appendChild(el("p", "From ymcasd.org, checked " + stamp(p.checked_at) + ". The YMCA's page is the source of truth.", "muted"));
+  }
+  load("pool.json").then(renderPool).catch(function () {
+    var box = document.getElementById("poolbox"); box.textContent = "";
+    box.appendChild(el("div", "Pool info isn't available right now.", "alert"));
+    var a = link("Ryan YMCA page", "https://www.ymcasd.org/locations/t-claude-and-gladys-b-ryan-family-ymca/"); a.className = "btn";
+    box.appendChild(a);
+  });
 
   function load(url) {
     return fetch(url, {cache: "no-cache"}).then(function (r) {
