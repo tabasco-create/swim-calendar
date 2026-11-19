@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-18T19:34:36Z",
- "updated_at": "2026-11-16T21:14:19Z",
+ "checked_at": "2026-11-19T19:37:40Z",
+ "updated_at": "2026-11-19T19:37:40Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
   {
@@ -10,6 +10,15 @@
    "end": "2026-11-27",
    "time": null,
    "location": "",
+   "description": ""
+  },
+  {
+   "uid": "914252@swimtopia.com",
+   "title": "2026 SI SBA WAG Max Meet",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "time": "5:00 PM",
+   "location": "Mater Dei High School",
    "description": ""
   },
   {
@@ -113,15 +122,6 @@
   }
  ],
  "filtered_out": [
-  {
-   "uid": "892842@swimtopia.com",
-   "title": "*USA* WAG Max Meet",
-   "start": "2026-12-04",
-   "end": "2026-12-06",
-   "time": "7:00 PM",
-   "location": "",
-   "description": ""
-  },
   {
    "uid": "892843@swimtopia.com",
    "title": "*USA* WAGs",
