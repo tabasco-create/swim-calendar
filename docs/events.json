@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-11-25T20:37:50Z",
- "updated_at": "2026-11-19T19:37:40Z",
+ "checked_at": "2026-11-26T20:31:44Z",
+ "updated_at": "2026-11-26T20:31:44Z",
  "tracking_since": "2026-10-11T21:05:53Z",
  "events": [
   {
@@ -38,6 +38,15 @@
    "time": "9:00 AM",
    "location": "12006 Campo Rd, Spring Valley, CA 91978",
    "description": "All Levels swim meet."
+  },
+  {
+   "uid": "914899@swimtopia.com",
+   "title": "NO PRACTICE - Winter Break",
+   "start": "2026-12-14",
+   "end": "2027-01-03",
+   "time": null,
+   "location": "",
+   "description": ""
   },
   {
    "uid": "906871@swimtopia.com",
