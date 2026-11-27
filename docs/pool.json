@@ -1,7 +1,7 @@
 {
  "ok": true,
- "checked_at": "2026-11-26T20:31:45Z",
- "updated_at": "2026-11-26T20:31:45Z",
+ "checked_at": "2026-11-27T20:17:40Z",
+ "updated_at": "2026-11-27T20:17:40Z",
  "page_url": "https://www.ymcasd.org/locations/t-claude-and-gladys-b-ryan-family-ymca/",
  "hours": [
   {
@@ -26,10 +26,6 @@
    "closed_from": "2026-12-14",
    "closed_to": "2026-12-18",
    "pool": true
-  },
-  {
-   "label": "THANKSGIVING DAY HOURS",
-   "text": "Please note that all branches will be open with limited hours from 7:00am-10:00am on Thursday, November 26, 2026.\nWe wish everyone a safe and happy holiday!"
   }
  ],
  "pdf": {
